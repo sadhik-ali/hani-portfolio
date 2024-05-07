@@ -18834,7 +18834,6 @@ body.white-version .rn-btn-ulderline {
 }
 .white-version .rn-service {
   background: var(--gradient-box-w);
-  box-shadow: var(--shadow-white-3);
 }
 .white-version .rn-service::before {
   background: var(--gradient-red-hover);
@@ -18860,7 +18859,6 @@ body.white-version .rn-btn-ulderline {
 .white-version .rn-portfolio,
 .white-version .rn-blog {
   background: var(--gradient-box-w);
-  box-shadow: var(--shadow-white-3);
 }
 .white-version .rn-portfolio::before,
 .white-version .rn-blog::before {
@@ -19288,7 +19286,6 @@ body.white-version .rn-btn-ulderline {
 }
 .white-version .rn-contact-area .contact-about-area {
   background: var(--gradient-box-w);
-  box-shadow: var(--shadow-white-3);
 }
 .white-version .rn-contact-area .contact-about-area .title-area h4.title {
   color: var(--color-heading-wv);
@@ -19328,7 +19325,6 @@ body.white-version .rn-btn-ulderline {
 }
 .white-version .rn-contact-area .contact-form-wrapper {
   background: var(--gradient-box-w);
-  box-shadow: var(--shadow-white-3);
 }
 .white-version .rn-contact-area .contact-form-wrapper input {
   background-color: #fdfefe;
@@ -19705,3 +19701,32 @@ body.white-version .rn-btn-ulderline {
   color: var(--color-white) !important;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+.bg-img {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 1.5;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/project-1/p7.jpeg);
+  
+}
+
+.bg-img2 {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 1.5;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/project-1/p9.jpeg);
+  
+}
